@@ -1,0 +1,54 @@
+
+body {
+    background-image: linear-gradient(
+        to bottom,
+        var(--grey, rgba(249, 247, 248, 0.5)),
+        var(--grey, rgba(249, 247, 248, 0.5))
+      ),
+      url(images/background2.png);
+    min-height: 100vh;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  /* .breed-select{
+display: flex;
+justify-content: center;
+width: 400px;
+  } */
+
+  h1 {
+    color: #59210A;
+    font-family: Akronim;
+    font-size: 60px;
+    margin: 0 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .cat-info {background: #E6D2BC ;
+    border:2px solid #59210A;
+    border-radius: 15px;
+    color: #241712; 
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 0; 
+
+  }
+  .cat-info h2{
+font-size: 36px;
+}
+.cat-info p{
+    font-size: 24px;
+    }  
+
+  .cat-img {
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--color-accent);
+    margin: 0 auto;
+    max-width: 700px;
+  }
