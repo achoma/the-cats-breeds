@@ -13,11 +13,7 @@ body {
   .hidden {
     display: none;
   }
-  /* .breed-select{
-display: flex;
-justify-content: center;
-width: 400px;
-  } */
+
 
   h1 {
     color: #59210A;
@@ -40,8 +36,11 @@ width: 400px;
 
   }
   .cat-info h2{
+    color: aliceblue;
 font-size: 36px;
-}
+border-radius: 50;
+padding: 4px;
+background-color: #59210A;}
 .cat-info p{
     font-size: 24px;
     }  
@@ -52,3 +51,7 @@ font-size: 36px;
     margin: 0 auto;
     max-width: 700px;
   }
+  .loader{display: flex;
+justify-content: center;
+width: 500px;
+}
