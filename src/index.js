@@ -63,9 +63,11 @@ function catDescription(catData) {
         <h2 class = "cat-name">${name}</h2>
         <div class = "description">
           <img class = "cat-img" src="${url}" alt="${name}" />
-          <p class="text">${description}</p>
-          <p class ="text">Temperament: ${temperament}</p>
-        </div>
+          <div class="cat-text">
+            <p class="text">${description}</p>
+            <p><strong>Temperament: </strong>${temperament}</p>
+          </div>
+          </div>
     </div>`
   ;
   loader.classList.add('hidden');
