@@ -61,8 +61,8 @@ function catDescription(catData) {
   catInfo.innerHTML = 
     `<div class = "content">
         <h2 class = "cat-name">${name}</h2>
-        <div class = "description">
-          <img class = "cat-img" src="${url}" alt="${name}" />
+            <div class = "description">
+      <img class = "cat-img" src="${url}" alt="${name}" />
           <div class="cat-text">
             <p class="text">${description}</p>
             <p><strong>Temperament: </strong>${temperament}</p>
