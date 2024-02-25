@@ -4,11 +4,13 @@
   --light-grey:#C9D9E3;
   --white:#fff;
 }
+
 body {
   background-image: url(images/1.png);
-  background-size: cover;
-  
+  background-position: right top;
   }
+
+
 
 section{
   display: flex;
@@ -64,26 +66,25 @@ h3{
 .hidden {
   display: none;
   } 
+  
+@media screen and (min-width: 768px){
 
+body {
+  background-position: left top;
+  background-size: cover;
+  }
 .content{  
   position: relative;
   display: flex;
   flex-direction: column;
   max-width: 1000px;
-  }
-
-.loader-box{
-  display: flex;
-  justify-content: flex-start;  
-  }
-  
+}
 .cat-info {
   display: flex;
   justify-content: flex-start;
   margin: auto 60px;
   max-width: 1028px;
   }
-
 h2{
   font-family: "Noto Sans", sans-serif;  
   font-weight: 500;
@@ -97,8 +98,7 @@ h2{
   box-shadow: 1px 1px 2px var(--light-grey);
   background-color: var(--grey);
   max-width: 500px;
-}
-
+  }
 .cat-img {
   position: absolute;
   top: 0;
@@ -107,23 +107,31 @@ h2{
   border-radius: 15px;
   box-shadow: 2px 2px 15px var(--white);
   max-width: 300px;
-  margin: 0;
-  opacity: 1;
-
   }
-
 .cat-img:hover,
 .cat-img:focus{
-    transform: scale(2);
-    position: sticky ;
-/* margin-left: 70; */
-margin-top: 0;
+  transform: scale(2);
+  position: sticky ;
+  margin-top: 0;
+  }
+  .description{
+    padding: 10px; 
+    margin-left: 330px; 
+    }
 }
-
+@media screen and (max-width: 767px){
+h2{display: none;
+}
+.cat-img {
+  border: 1px solid var(--grey);
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px var(--white);
+  max-width: 100%;
+  }
+}
 .description{
   font-family: "Noto Sans", sans-serif;
-  padding: 10px; 
-  margin-left: 330px; 
+  padding: 15px; 
   border-radius: 15px;
   color: var(--white); 
   text-shadow: 50px 50px 50px var(--white), -50px -50px 50px var(--white);
@@ -135,17 +143,3 @@ margin-top: 0;
     font-size: 18px;
     }  
 
-
-/* 
-h1{border: 1px solid blue;}
-h3{border: 1px solid greenyellow;}
- .header{ border: 3px solid orangered;}
-.breed-select{border: 1px solid red;}
-.loader-box{border: 1px solid yellow;}
-.loader{border: 1px solid green;}
-.cat-info{border: 1px solid blue;}
-.content{border: 3px dotted blue;}
-.cat-name{border: 3px dotted green;}
-.cat-img{border: 3px dotted red;}
-.text{border: 3px dotted yellow;}
-.description{border: 3px dotted wheat;} */
