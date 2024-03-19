@@ -1,10 +1,10 @@
 # FELINE BREED CHECKER
 
-## O projekcie
+## About the project
 
-Projekt ten skupia się na opracowaniu komponentu frontendowego aplikacji
-służącej do wyszukiwania informacji o rasach kotów. Podstawowym celem jest
-zagłębienie się w dziedzinę żądań HTTP i wykorzystanie Fetch API.
+This project focuses on developing the front-end component of an application for
+searching information about cat breeds. The primary goal is to delve into the
+domain of HTTP requests and leverage the Fetch API.
 
 ## GitHub Pages
 
